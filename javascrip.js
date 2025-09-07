@@ -1,6 +1,6 @@
 let userName = null;
 
-function sendMessage() {
+function sendMessageAction() {
     const input = document.getElementById("userInput");
     const message = input.value.trim();
     if (message === "") return;
